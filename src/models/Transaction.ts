@@ -1,9 +1,9 @@
-import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, UpdateDateColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn, UpdateDateColumn } from "typeorm";
 import Category from "./Category";
 
 @Entity('transactions')
 class Transaction {
-  @Column()
+  @PrimaryColumn()
   id: string;
 
   @Column()
