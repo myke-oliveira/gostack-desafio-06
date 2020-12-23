@@ -25,6 +25,10 @@ export default class CreateTableTransactions1608736334058 implements MigrationIn
               type: 'varchar',
             },
             {
+              name: 'value',
+              type: 'decimal',
+            },
+            {
               name: 'created_at',
               type: 'timestamp',
               default: 'now()',
