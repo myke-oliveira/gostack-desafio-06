@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import { EntityRepository, Repository } from 'typeorm';
 
 import Transaction from '../models/Transaction';
